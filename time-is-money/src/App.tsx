@@ -10,9 +10,9 @@ function App() {
   };
 
   return (
-    <main className="relative h-screen w-screen">
-      <Card className="h-full w-full p-0 overflow-hidden rounded-none">
-        <Map center={[0, 0]} zoom={2}>
+    <main className="relative h-screen w-screen bg-gray-900">
+      <Card className="h-full w-full p-0 overflow-hidden rounded-none bg-transparent">
+        <Map center={[0, 0]} zoom={2} projection={{ type: "globe" }}>
           <MapControls />
         </Map>
       </Card>
