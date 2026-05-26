@@ -1,6 +1,7 @@
 import { Elysia } from "elysia";
 import { requestHandler } from "./scrape/amazonScraper";
 import { CheerioCrawler } from "crawlee";
+import cors from "@elysia/cors";
 
 const app = new Elysia()
   .get("/", () => "Hello Elysia")
@@ -20,6 +21,7 @@ const app = new Elysia()
 
     return crawler.getData();
   })
+  .use(cors())
   .listen(3000);
 
 console.log(
