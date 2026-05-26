@@ -15,7 +15,7 @@ const app = new Elysia()
     });
 
     await crawler.run([
-      "https://www.amazon.com.br/gp/product/B0F8GB9GD4?smid=A1TAE4J3CJ7LQ6&psc=1",
+      "https://www.amazon.com.br/Dumbbell-Halter-Gallant-Elite-Regul%C3%A1vel/dp/B0CM6TVWZ8",
     ]);
 
     return crawler.getData();

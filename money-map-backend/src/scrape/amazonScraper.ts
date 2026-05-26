@@ -1,32 +1,45 @@
 import { CheerioAPI, CheerioCrawlingContext } from "crawlee";
 
+type Price = {
+  currency: string;
+  value: number;
+};
+
 type ProductDetails = {
   title: string;
-  price: number;
+  price: Price;
   imgUrl: string;
+};
+
+const parseCurrency = (input: string): Price => {
+  const match = input.match(/^([^\d]+)([\d.,]+)$/);
+
+  if (!match) throw new Error(`Unrecognized currency format: "${input}"`);
+
+  const [_, currency, rawValue] = match;
+  const value = parseFloat(rawValue.replace(/\./g, "").replace(",", "."));
+
+  if (isNaN(value))
+    throw new Error(`Could not parse numeric value from: "${rawValue}"`);
+
+  return { currency: currency.trim(), value };
 };
 
 const SELECTORS = {
   TITLE: "span#productTitle",
-  PRICE_WHOLE: "div#corePriceDisplay_desktop_feature_div span.a-price-whole",
-  PRICE_FRACTION: "span.a-price-fraction",
+  PRICE: "span.priceToPay",
   IMG_URL: ".imgTagWrapper img",
 } as const;
 
 export const extractProductDetails = ($: CheerioAPI): ProductDetails => {
   const title = $(SELECTORS.TITLE).text().trim();
-  const priceWhole = $(SELECTORS.PRICE_WHOLE).text().trim();
-  const priceFraction = $(SELECTORS.PRICE_WHOLE).text().trim();
-  const imgUrl = $(SELECTORS.IMG_URL).text().trim();
+  const price = $(SELECTORS.PRICE).text().trim();
+  const imgUrl = $(SELECTORS.IMG_URL).attr("src") ?? "";
 
-  console.log({ priceWhole, priceFraction });
-
-  return { title, price: Number(`${priceWhole}.${priceFraction}`), imgUrl };
+  return { title, price: parseCurrency(price), imgUrl };
 };
 
 export const requestHandler = async (context: CheerioCrawlingContext) => {
-  const { $ } = context;
-  const { pushData } = context;
-  const details = extractProductDetails($);
-  await pushData(details);
+  const { $, pushData } = context;
+  await pushData(extractProductDetails($));
 };
