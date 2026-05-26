@@ -6,6 +6,8 @@
     "dev": "bun run --watch src/index.ts"
   },
   "dependencies": {
+    "cheerio": "^1.2.0",
+    "crawlee": "^3.16.0",
     "elysia": "latest"
   },
   "devDependencies": {
