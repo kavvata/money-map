@@ -5,7 +5,7 @@ type Price = {
   value: number;
 };
 
-type ProductDetails = {
+export type ProductDetails = {
   title: string;
   price: Price;
   imgUrl: string;

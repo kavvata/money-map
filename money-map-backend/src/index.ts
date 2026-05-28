@@ -1,8 +1,9 @@
 import { Elysia } from "elysia";
-import { requestHandler } from "./scrape/amazonScraper";
+import { ProductDetails, requestHandler } from "./scrape/amazonScraper";
 import { CheerioCrawler } from "crawlee";
 import cors from "@elysia/cors";
 import { getBrazil, getFullGeojson } from "./map/geojsonService";
+import { getUsdPrice } from "./currency/currencyService";
 
 const app = new Elysia()
   .use(
@@ -28,10 +29,20 @@ const app = new Elysia()
     ]);
 
     const crawlerData = await crawler.getData();
-    const scrapedItem = crawlerData.items;
+    if (crawlerData.items.length != 1) {
+      throw new Error(
+        `crawler got wrong number of items:  ${crawlerData.items.length}. expected 1`,
+      );
+    }
 
-    // const usdValue = getUsdPrice(scrapedItem)
-    // const geojsonWithTimeValue = mapToTime(usdValue)
+    const scrapedItem = crawlerData.items[0] as ProductDetails;
+
+    const usdPrice = await getUsdPrice(
+      scrapedItem.price.value,
+      scrapedItem.price.currency,
+    );
+
+    // const geoJsonMapData = await buildGeoJsonMapDataFromUsd(usdPrice)
 
     return scrapedItem;
   })
