@@ -1,0 +1,608 @@
+[
+  {
+    "country": "Luxembourg",
+    "minimumWage": "3,204.05",
+    "dateEstimate": "June 26, 2001",
+    "previousValue": "3,204.05"
+  },
+  {
+    "country": "Ireland",
+    "minimumWage": "2,879.51",
+    "dateEstimate": "January 26, 2001",
+    "previousValue": "2,748.24"
+  },
+  {
+    "country": "United Kingdom",
+    "minimumWage": "2,848.69",
+    "dateEstimate": "April 25, 2001",
+    "previousValue": "2,736.33"
+  },
+  {
+    "country": "Germany",
+    "minimumWage": "2,829.36",
+    "dateEstimate": "January 26, 2001",
+    "previousValue": "2,608.15"
+  },
+  {
+    "country": "Australia",
+    "minimumWage": "2,690.99",
+    "dateEstimate": "July 25, 2001",
+    "previousValue": "2,600.15"
+  },
+  {
+    "country": "Belgium",
+    "minimumWage": "2,502.57",
+    "dateEstimate": "June 26, 2001",
+    "previousValue": "2,502.57"
+  },
+  {
+    "country": "New Zealand",
+    "minimumWage": "2,316.24",
+    "dateEstimate": "April 25, 2001",
+    "previousValue": "2,281.99"
+  },
+  {
+    "country": "Canada",
+    "minimumWage": "2,191.62",
+    "dateEstimate": "October 25, 2001",
+    "previousValue": "2,141.91"
+  },
+  {
+    "country": "France",
+    "minimumWage": "2,160.13",
+    "dateEstimate": "June 26, 2001",
+    "previousValue": "2,135.24"
+  },
+  {
+    "country": "Israel",
+    "minimumWage": "1,680.15",
+    "dateEstimate": "April 25, 2001",
+    "previousValue": "1,581.19"
+  },
+  {
+    "country": "Spain",
+    "minimumWage": "1,636.39",
+    "dateEstimate": "June 26, 2001",
+    "previousValue": "1,636.39"
+  },
+  {
+    "country": "Slovenia",
+    "minimumWage": "1,514.34",
+    "dateEstimate": "June 26, 2001",
+    "previousValue": "1,514.34"
+  },
+  {
+    "country": "Lithuania",
+    "minimumWage": "1,366.22",
+    "dateEstimate": "June 26, 2001",
+    "previousValue": "1,229.96"
+  },
+  {
+    "country": "Poland",
+    "minimumWage": "1,349.64",
+    "dateEstimate": "June 26, 2001",
+    "previousValue": "1,303.42"
+  },
+  {
+    "country": "Portugal",
+    "minimumWage": "1,271.43",
+    "dateEstimate": "June 26, 2001",
+    "previousValue": "1,202.70"
+  },
+  {
+    "country": "United States",
+    "minimumWage": "1,256.16",
+    "dateEstimate": "December 25, 2001",
+    "previousValue": "1,256.16"
+  },
+  {
+    "country": "Japan",
+    "minimumWage": "1,244.71",
+    "dateEstimate": "October 25, 2001",
+    "previousValue": "1,311.13"
+  },
+  {
+    "country": "Croatia",
+    "minimumWage": "1,244.18",
+    "dateEstimate": "June 26, 2001",
+    "previousValue": "1,149.38"
+  },
+  {
+    "country": "Greece",
+    "minimumWage": "1,216.92",
+    "dateEstimate": "June 26, 2001",
+    "previousValue": "1,216.92"
+  },
+  {
+    "country": "South Korea",
+    "minimumWage": "1,181.95",
+    "dateEstimate": "December 25, 2001",
+    "previousValue": "1,162.22"
+  },
+  {
+    "country": "Malta",
+    "minimumWage": "1,177.82",
+    "dateEstimate": "June 26, 2001",
+    "previousValue": "1,138.72"
+  },
+  {
+    "country": "Czechia",
+    "minimumWage": "1,094.88",
+    "dateEstimate": "June 26, 2001",
+    "previousValue": "996.53"
+  },
+  {
+    "country": "Slovakia",
+    "minimumWage": "1,084.21",
+    "dateEstimate": "June 26, 2001",
+    "previousValue": "966.90"
+  },
+  {
+    "country": "Estonia",
+    "minimumWage": "1,049.85",
+    "dateEstimate": "June 26, 2001",
+    "previousValue": "1,049.85"
+  },
+  {
+    "country": "Hungary",
+    "minimumWage": "992.97",
+    "dateEstimate": "June 26, 2001",
+    "previousValue": "861.44"
+  },
+  {
+    "country": "Romania",
+    "minimumWage": "942.02",
+    "dateEstimate": "June 26, 2001",
+    "previousValue": "944.39"
+  },
+  {
+    "country": "Hong Kong",
+    "minimumWage": "940.70",
+    "dateEstimate": "May 25, 2001",
+    "previousValue": "893.92"
+  },
+  {
+    "country": "Taiwan",
+    "minimumWage": "939.28",
+    "dateEstimate": "December 25, 2001",
+    "previousValue": "910.31"
+  },
+  {
+    "country": "Latvia",
+    "minimumWage": "924.25",
+    "dateEstimate": "June 26, 2001",
+    "previousValue": "876.85"
+  },
+  {
+    "country": "Serbia",
+    "minimumWage": "881.59",
+    "dateEstimate": "June 26, 2001",
+    "previousValue": "732.29"
+  },
+  {
+    "country": "Oman",
+    "minimumWage": "842.49",
+    "dateEstimate": "December 25, 2001",
+    "previousValue": "842.49"
+  },
+  {
+    "country": "Montenegro",
+    "minimumWage": "793.90",
+    "dateEstimate": "June 26, 2001",
+    "previousValue": "793.90"
+  },
+  {
+    "country": "Turkey",
+    "minimumWage": "759.36",
+    "dateEstimate": "December 26, 2001",
+    "previousValue": "597.88"
+  },
+  {
+    "country": "Bulgaria",
+    "minimumWage": "734.66",
+    "dateEstimate": "June 26, 2001",
+    "previousValue": "652.90"
+  },
+  {
+    "country": "Costa Rica",
+    "minimumWage": "726",
+    "dateEstimate": "December 25, 2001",
+    "previousValue": "720"
+  },
+  {
+    "country": "Chile",
+    "minimumWage": "555.45",
+    "dateEstimate": "May 25, 2001",
+    "previousValue": "525"
+  },
+  {
+    "country": "Panama",
+    "minimumWage": "542.57",
+    "dateEstimate": "January 26, 2001",
+    "previousValue": "533.93"
+  },
+  {
+    "country": "Guatemala",
+    "minimumWage": "513.06",
+    "dateEstimate": "January 26, 2001",
+    "previousValue": "477.29"
+  },
+  {
+    "country": "Ecuador",
+    "minimumWage": "482",
+    "dateEstimate": "December 25, 2001",
+    "previousValue": "470"
+  },
+  {
+    "country": "Albania",
+    "minimumWage": "475.60",
+    "dateEstimate": "September 25, 2001",
+    "previousValue": "475.60"
+  },
+  {
+    "country": "Bolivia",
+    "minimumWage": "469.03",
+    "dateEstimate": "December 25, 2001",
+    "previousValue": "390.86"
+  },
+  {
+    "country": "Malaysia",
+    "minimumWage": "430.49",
+    "dateEstimate": "December 26, 2001",
+    "previousValue": "430.49"
+  },
+  {
+    "country": "Jordan",
+    "minimumWage": "409.03",
+    "dateEstimate": "January 25, 2001",
+    "previousValue": "409.03"
+  },
+  {
+    "country": "El Salvador",
+    "minimumWage": "409",
+    "dateEstimate": "January 26, 2001",
+    "previousValue": "409"
+  },
+  {
+    "country": "Paraguay",
+    "minimumWage": "405.86",
+    "dateEstimate": "December 25, 2001",
+    "previousValue": "405.86"
+  },
+  {
+    "country": "China",
+    "minimumWage": "391.66",
+    "dateEstimate": "January 26, 2001",
+    "previousValue": "391.66"
+  },
+  {
+    "country": "Colombia",
+    "minimumWage": "384.35",
+    "dateEstimate": "December 25, 2001",
+    "previousValue": "351"
+  },
+  {
+    "country": "Moldova",
+    "minimumWage": "368.87",
+    "dateEstimate": "January 26, 2001",
+    "previousValue": "322.03"
+  },
+  {
+    "country": "Mauritius",
+    "minimumWage": "362.56",
+    "dateEstimate": "January 26, 2001",
+    "previousValue": "362.56"
+  },
+  {
+    "country": "Honduras",
+    "minimumWage": "349.08",
+    "dateEstimate": "January 25, 2001",
+    "previousValue": "330.88"
+  },
+  {
+    "country": "Indonesia",
+    "minimumWage": "343.80",
+    "dateEstimate": "January 26, 2001",
+    "previousValue": "324"
+  },
+  {
+    "country": "Morocco",
+    "minimumWage": "332.54",
+    "dateEstimate": "January 25, 2001",
+    "previousValue": "295.82"
+  },
+  {
+    "country": "Peru",
+    "minimumWage": "331.79",
+    "dateEstimate": "November 25, 2001",
+    "previousValue": "331.79"
+  },
+  {
+    "country": "Mexico",
+    "minimumWage": "330.04",
+    "dateEstimate": "December 25, 2001",
+    "previousValue": "330.04"
+  },
+  {
+    "country": "Bosnia and Herzegovina",
+    "minimumWage": "328.72",
+    "dateEstimate": "January 25, 2001",
+    "previousValue": "328.72"
+  },
+  {
+    "country": "Brazil",
+    "minimumWage": "303.79",
+    "dateEstimate": "December 25, 2001",
+    "previousValue": "284.49"
+  },
+  {
+    "country": "Belarus",
+    "minimumWage": "293.89",
+    "dateEstimate": "January 26, 2001",
+    "previousValue": "248.68"
+  },
+  {
+    "country": "Dominican Republic",
+    "minimumWage": "269.85",
+    "dateEstimate": "February 26, 2001",
+    "previousValue": "251.86"
+  },
+  {
+    "country": "Qatar",
+    "minimumWage": "269.43",
+    "dateEstimate": "January 26, 2001",
+    "previousValue": "269.43"
+  },
+  {
+    "country": "South Africa",
+    "minimumWage": "268.78",
+    "dateEstimate": "March 25, 2001",
+    "previousValue": "257.60"
+  },
+  {
+    "country": "Philippines",
+    "minimumWage": "254.64",
+    "dateEstimate": "December 26, 2001",
+    "previousValue": "254.64"
+  },
+  {
+    "country": "Thailand",
+    "minimumWage": "252.63",
+    "dateEstimate": "January 25, 2001",
+    "previousValue": "252.63"
+  },
+  {
+    "country": "Russia",
+    "minimumWage": "242.48",
+    "dateEstimate": "January 25, 2001",
+    "previousValue": "200.84"
+  },
+  {
+    "country": "Mongolia",
+    "minimumWage": "237.60",
+    "dateEstimate": "January 25, 2001",
+    "previousValue": "237.60"
+  },
+  {
+    "country": "Azerbaijan",
+    "minimumWage": "235.29",
+    "dateEstimate": "January 26, 2001",
+    "previousValue": "235.29"
+  },
+  {
+    "country": "Argentina",
+    "minimumWage": "231.01",
+    "dateEstimate": "December 25, 2001",
+    "previousValue": "226.60"
+  },
+  {
+    "country": "Nicaragua",
+    "minimumWage": "214.88",
+    "dateEstimate": "March 25, 2001",
+    "previousValue": "206.63"
+  },
+  {
+    "country": "Vietnam",
+    "minimumWage": "212.40",
+    "dateEstimate": "January 26, 2001",
+    "previousValue": "198.40"
+  },
+  {
+    "country": "Cambodia",
+    "minimumWage": "210",
+    "dateEstimate": "January 26, 2001",
+    "previousValue": "208"
+  },
+  {
+    "country": "Ukraine",
+    "minimumWage": "202.86",
+    "dateEstimate": "January 26, 2001",
+    "previousValue": "187.68"
+  },
+  {
+    "country": "Armenia",
+    "minimumWage": "190.50",
+    "dateEstimate": "January 26, 2001",
+    "previousValue": "190.50"
+  },
+  {
+    "country": "Algeria",
+    "minimumWage": "184.32",
+    "dateEstimate": "January 26, 2001",
+    "previousValue": "153.60"
+  },
+  {
+    "country": "Kazakhstan",
+    "minimumWage": "161.50",
+    "dateEstimate": "January 25, 2001",
+    "previousValue": "161.50"
+  },
+  {
+    "country": "Tunisia",
+    "minimumWage": "148.96",
+    "dateEstimate": "November 25, 2001",
+    "previousValue": "148.96"
+  },
+  {
+    "country": "Egypt",
+    "minimumWage": "146.65",
+    "dateEstimate": "January 26, 2001",
+    "previousValue": "146.65"
+  },
+  {
+    "country": "Papua New Guinea",
+    "minimumWage": "144.06",
+    "dateEstimate": "September 25, 2001",
+    "previousValue": "144.06"
+  },
+  {
+    "country": "Lesotho",
+    "minimumWage": "135.15",
+    "dateEstimate": "January 26, 2001",
+    "previousValue": "128.10"
+  },
+  {
+    "country": "Pakistan",
+    "minimumWage": "129.87",
+    "dateEstimate": "July 25, 2001",
+    "previousValue": "129.87"
+  },
+  {
+    "country": "Laos",
+    "minimumWage": "125",
+    "dateEstimate": "January 26, 2001",
+    "previousValue": "125"
+  },
+  {
+    "country": "Cape Verde",
+    "minimumWage": "122.46",
+    "dateEstimate": "January 25, 2001",
+    "previousValue": "122.46"
+  },
+  {
+    "country": "Kenya",
+    "minimumWage": "116.90",
+    "dateEstimate": "May 25, 2001",
+    "previousValue": "116.90"
+  },
+  {
+    "country": "Botswana",
+    "minimumWage": "111.24",
+    "dateEstimate": "January 25, 2001",
+    "previousValue": "90.07"
+  },
+  {
+    "country": "Mozambique",
+    "minimumWage": "103.73",
+    "dateEstimate": "July 25, 2001",
+    "previousValue": "98.30"
+  },
+  {
+    "country": "Uzbekistan",
+    "minimumWage": "101.68",
+    "dateEstimate": "January 26, 2001",
+    "previousValue": "92.40"
+  },
+  {
+    "country": "Bangladesh",
+    "minimumWage": "101.50",
+    "dateEstimate": "December 25, 2001",
+    "previousValue": "101.50"
+  },
+  {
+    "country": "Benin",
+    "minimumWage": "93.08",
+    "dateEstimate": "January 26, 2001",
+    "previousValue": "93.08"
+  },
+  {
+    "country": "Tajikistan",
+    "minimumWage": "90.63",
+    "dateEstimate": "January 25, 2001",
+    "previousValue": "72.50"
+  },
+  {
+    "country": "Sri Lanka",
+    "minimumWage": "56.53",
+    "dateEstimate": "December 25, 2001",
+    "previousValue": "56.53"
+  },
+  {
+    "country": "Madagascar",
+    "minimumWage": "55.16",
+    "dateEstimate": "January 25, 2001",
+    "previousValue": "55.16"
+  },
+  {
+    "country": "Netherlands",
+    "minimumWage": "53.93",
+    "dateEstimate": "January 26, 2001",
+    "previousValue": "53.10"
+  },
+  {
+    "country": "Myanmar",
+    "minimumWage": "48.86",
+    "dateEstimate": "December 25, 2001",
+    "previousValue": "48.86"
+  },
+  {
+    "country": "Nigeria",
+    "minimumWage": "45.50",
+    "dateEstimate": "January 25, 2001",
+    "previousValue": "45.50"
+  },
+  {
+    "country": "India",
+    "minimumWage": "43.15",
+    "dateEstimate": "December 25, 2001",
+    "previousValue": "43.15"
+  },
+  {
+    "country": "Kyrgyzstan",
+    "minimumWage": "37.52",
+    "dateEstimate": "December 25, 2001",
+    "previousValue": "28.14"
+  },
+  {
+    "country": "Uganda",
+    "minimumWage": "35.10",
+    "dateEstimate": "January 26, 2001",
+    "previousValue": "35.10"
+  },
+  {
+    "country": "Angola",
+    "minimumWage": "35.08",
+    "dateEstimate": "December 25, 2001",
+    "previousValue": "35.08"
+  },
+  {
+    "country": "Ghana",
+    "minimumWage": "32.01",
+    "dateEstimate": "January 25, 2001",
+    "previousValue": "32.01"
+  },
+  {
+    "country": "Tanzania",
+    "minimumWage": "32",
+    "dateEstimate": "January 26, 2001",
+    "previousValue": "24"
+  },
+  {
+    "country": "Haiti",
+    "minimumWage": "4.09",
+    "dateEstimate": "January 25, 2001",
+    "previousValue": "4.09"
+  },
+  {
+    "country": "Ethiopia",
+    "minimumWage": "2.70",
+    "dateEstimate": "January 26, 2001",
+    "previousValue": "2.70"
+  },
+  {
+    "country": "Venezuela",
+    "minimumWage": "0.33",
+    "dateEstimate": "December 25, 2001",
+    "previousValue": "0.33"
+  }
+]
