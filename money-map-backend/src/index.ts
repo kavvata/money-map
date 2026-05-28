@@ -2,7 +2,11 @@ import { Elysia } from "elysia";
 import { ProductDetails, requestHandler } from "./scrape/amazonScraper";
 import { CheerioCrawler } from "crawlee";
 import cors from "@elysia/cors";
-import { getBrazil, getFullGeojson } from "./map/geojsonService";
+import {
+  buildGeoJsonMapDataFromUsd,
+  getBrazil,
+  getFullGeojson,
+} from "./map/geojsonService";
 import { getUsdPrice } from "./currency/currencyService";
 
 const app = new Elysia()
@@ -42,9 +46,9 @@ const app = new Elysia()
       scrapedItem.price.currency,
     );
 
-    // const geoJsonMapData = await buildGeoJsonMapDataFromUsd(usdPrice)
+    const geoJsonMapData = await buildGeoJsonMapDataFromUsd(usdPrice);
 
-    return scrapedItem;
+    return geoJsonMapData;
   })
   .listen(3000);
 

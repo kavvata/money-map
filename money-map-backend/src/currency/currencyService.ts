@@ -55,12 +55,13 @@ export const getUsdPrice = async (
   return value * originalRate.rate;
 };
 
-const usdToTime = (price: number, countryName: string) => {
+export const usdToTime = (price: number, countryName: string) => {
   const minimumWages = minimumWageJson as Array<MinimumWage>;
 
   const countryWage = minimumWages.find((w) => w.country == countryName);
   if (!countryWage) {
-    throw new Error(`Country "${countryName}" not found`);
+    console.log(`Country "${countryName}" not found`);
+    return 0;
   }
 
   const hourlyWage =

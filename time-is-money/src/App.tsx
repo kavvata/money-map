@@ -15,7 +15,7 @@ function CustomLayer() {
 
   const addLayers = useCallback(async () => {
     if (!map) return;
-    const response = await fetch("http://localhost:3000/");
+    const response = await fetch("http://localhost:3000/scrape/");
     const geojsonData: FeatureCollection<Geometry, GeoJsonProperties> =
       await response.json();
     // Add source if it doesn't exist
