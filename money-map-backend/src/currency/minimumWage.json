@@ -1,0 +1,709 @@
+[
+  {
+    "": "",
+    "Country": "Luxembourg",
+    "Minimum Wage  (per month)↓": "$3,204.05",
+    "Date of Estimate": "June 26, 2001",
+    "Previous Value (per month)": "$3,204.05"
+  },
+  {
+    "": "",
+    "Country": "Ireland",
+    "Minimum Wage  (per month)↓": "$2,879.51",
+    "Date of Estimate": "January 26, 2001",
+    "Previous Value (per month)": "$2,748.24"
+  },
+  {
+    "": "",
+    "Country": "United Kingdom",
+    "Minimum Wage  (per month)↓": "$2,848.69",
+    "Date of Estimate": "April 25, 2001",
+    "Previous Value (per month)": "$2,736.33"
+  },
+  {
+    "": "",
+    "Country": "Germany",
+    "Minimum Wage  (per month)↓": "$2,829.36",
+    "Date of Estimate": "January 26, 2001",
+    "Previous Value (per month)": "$2,608.15"
+  },
+  {
+    "": "",
+    "Country": "Australia",
+    "Minimum Wage  (per month)↓": "$2,690.99",
+    "Date of Estimate": "July 25, 2001",
+    "Previous Value (per month)": "$2,600.15"
+  },
+  {
+    "": "",
+    "Country": "Belgium",
+    "Minimum Wage  (per month)↓": "$2,502.57",
+    "Date of Estimate": "June 26, 2001",
+    "Previous Value (per month)": "$2,502.57"
+  },
+  {
+    "": "",
+    "Country": "New Zealand",
+    "Minimum Wage  (per month)↓": "$2,316.24",
+    "Date of Estimate": "April 25, 2001",
+    "Previous Value (per month)": "$2,281.99"
+  },
+  {
+    "": "",
+    "Country": "Canada",
+    "Minimum Wage  (per month)↓": "$2,191.62",
+    "Date of Estimate": "October 25, 2001",
+    "Previous Value (per month)": "$2,141.91"
+  },
+  {
+    "": "",
+    "Country": "France",
+    "Minimum Wage  (per month)↓": "$2,160.13",
+    "Date of Estimate": "June 26, 2001",
+    "Previous Value (per month)": "$2,135.24"
+  },
+  {
+    "": "",
+    "Country": "Israel",
+    "Minimum Wage  (per month)↓": "$1,680.15",
+    "Date of Estimate": "April 25, 2001",
+    "Previous Value (per month)": "$1,581.19"
+  },
+  {
+    "": "",
+    "Country": "Spain",
+    "Minimum Wage  (per month)↓": "$1,636.39",
+    "Date of Estimate": "June 26, 2001",
+    "Previous Value (per month)": "$1,636.39"
+  },
+  {
+    "": "",
+    "Country": "Slovenia",
+    "Minimum Wage  (per month)↓": "$1,514.34",
+    "Date of Estimate": "June 26, 2001",
+    "Previous Value (per month)": "$1,514.34"
+  },
+  {
+    "": "",
+    "Country": "Lithuania",
+    "Minimum Wage  (per month)↓": "$1,366.22",
+    "Date of Estimate": "June 26, 2001",
+    "Previous Value (per month)": "$1,229.96"
+  },
+  {
+    "": "",
+    "Country": "Poland",
+    "Minimum Wage  (per month)↓": "$1,349.64",
+    "Date of Estimate": "June 26, 2001",
+    "Previous Value (per month)": "$1,303.42"
+  },
+  {
+    "": "",
+    "Country": "Portugal",
+    "Minimum Wage  (per month)↓": "$1,271.43",
+    "Date of Estimate": "June 26, 2001",
+    "Previous Value (per month)": "$1,202.70"
+  },
+  {
+    "": "",
+    "Country": "United States",
+    "Minimum Wage  (per month)↓": "$1,256.16",
+    "Date of Estimate": "December 25, 2001",
+    "Previous Value (per month)": "$1,256.16"
+  },
+  {
+    "": "",
+    "Country": "Japan",
+    "Minimum Wage  (per month)↓": "$1,244.71",
+    "Date of Estimate": "October 25, 2001",
+    "Previous Value (per month)": "$1,311.13"
+  },
+  {
+    "": "",
+    "Country": "Croatia",
+    "Minimum Wage  (per month)↓": "$1,244.18",
+    "Date of Estimate": "June 26, 2001",
+    "Previous Value (per month)": "$1,149.38"
+  },
+  {
+    "": "",
+    "Country": "Greece",
+    "Minimum Wage  (per month)↓": "$1,216.92",
+    "Date of Estimate": "June 26, 2001",
+    "Previous Value (per month)": "$1,216.92"
+  },
+  {
+    "": "",
+    "Country": "South Korea",
+    "Minimum Wage  (per month)↓": "$1,181.95",
+    "Date of Estimate": "December 25, 2001",
+    "Previous Value (per month)": "$1,162.22"
+  },
+  {
+    "": "",
+    "Country": "Malta",
+    "Minimum Wage  (per month)↓": "$1,177.82",
+    "Date of Estimate": "June 26, 2001",
+    "Previous Value (per month)": "$1,138.72"
+  },
+  {
+    "": "",
+    "Country": "Czechia",
+    "Minimum Wage  (per month)↓": "$1,094.88",
+    "Date of Estimate": "June 26, 2001",
+    "Previous Value (per month)": "$996.53"
+  },
+  {
+    "": "",
+    "Country": "Slovakia",
+    "Minimum Wage  (per month)↓": "$1,084.21",
+    "Date of Estimate": "June 26, 2001",
+    "Previous Value (per month)": "$966.90"
+  },
+  {
+    "": "",
+    "Country": "Estonia",
+    "Minimum Wage  (per month)↓": "$1,049.85",
+    "Date of Estimate": "June 26, 2001",
+    "Previous Value (per month)": "$1,049.85"
+  },
+  {
+    "": "",
+    "Country": "Hungary",
+    "Minimum Wage  (per month)↓": "$992.97",
+    "Date of Estimate": "June 26, 2001",
+    "Previous Value (per month)": "$861.44"
+  },
+  {
+    "": "",
+    "Country": "Romania",
+    "Minimum Wage  (per month)↓": "$942.02",
+    "Date of Estimate": "June 26, 2001",
+    "Previous Value (per month)": "$944.39"
+  },
+  {
+    "": "",
+    "Country": "Hong Kong",
+    "Minimum Wage  (per month)↓": "$940.70",
+    "Date of Estimate": "May 25, 2001",
+    "Previous Value (per month)": "$893.92"
+  },
+  {
+    "": "",
+    "Country": "Taiwan",
+    "Minimum Wage  (per month)↓": "$939.28",
+    "Date of Estimate": "December 25, 2001",
+    "Previous Value (per month)": "$910.31"
+  },
+  {
+    "": "",
+    "Country": "Latvia",
+    "Minimum Wage  (per month)↓": "$924.25",
+    "Date of Estimate": "June 26, 2001",
+    "Previous Value (per month)": "$876.85"
+  },
+  {
+    "": "",
+    "Country": "Serbia",
+    "Minimum Wage  (per month)↓": "$881.59",
+    "Date of Estimate": "June 26, 2001",
+    "Previous Value (per month)": "$732.29"
+  },
+  {
+    "": "",
+    "Country": "Oman",
+    "Minimum Wage  (per month)↓": "$842.49",
+    "Date of Estimate": "December 25, 2001",
+    "Previous Value (per month)": "$842.49"
+  },
+  {
+    "": "",
+    "Country": "Montenegro",
+    "Minimum Wage  (per month)↓": "$793.90",
+    "Date of Estimate": "June 26, 2001",
+    "Previous Value (per month)": "$793.90"
+  },
+  {
+    "": "",
+    "Country": "Turkey",
+    "Minimum Wage  (per month)↓": "$759.36",
+    "Date of Estimate": "December 26, 2001",
+    "Previous Value (per month)": "$597.88"
+  },
+  {
+    "": "",
+    "Country": "Bulgaria",
+    "Minimum Wage  (per month)↓": "$734.66",
+    "Date of Estimate": "June 26, 2001",
+    "Previous Value (per month)": "$652.90"
+  },
+  {
+    "": "",
+    "Country": "Costa Rica",
+    "Minimum Wage  (per month)↓": "$726",
+    "Date of Estimate": "December 25, 2001",
+    "Previous Value (per month)": "$720"
+  },
+  {
+    "": "",
+    "Country": "Chile",
+    "Minimum Wage  (per month)↓": "$555.45",
+    "Date of Estimate": "May 25, 2001",
+    "Previous Value (per month)": "$525"
+  },
+  {
+    "": "",
+    "Country": "Panama",
+    "Minimum Wage  (per month)↓": "$542.57",
+    "Date of Estimate": "January 26, 2001",
+    "Previous Value (per month)": "$533.93"
+  },
+  {
+    "": "",
+    "Country": "Guatemala",
+    "Minimum Wage  (per month)↓": "$513.06",
+    "Date of Estimate": "January 26, 2001",
+    "Previous Value (per month)": "$477.29"
+  },
+  {
+    "": "",
+    "Country": "Ecuador",
+    "Minimum Wage  (per month)↓": "$482",
+    "Date of Estimate": "December 25, 2001",
+    "Previous Value (per month)": "$470"
+  },
+  {
+    "": "",
+    "Country": "Albania",
+    "Minimum Wage  (per month)↓": "$475.60",
+    "Date of Estimate": "September 25, 2001",
+    "Previous Value (per month)": "$475.60"
+  },
+  {
+    "": "",
+    "Country": "Bolivia",
+    "Minimum Wage  (per month)↓": "$469.03",
+    "Date of Estimate": "December 25, 2001",
+    "Previous Value (per month)": "$390.86"
+  },
+  {
+    "": "",
+    "Country": "Malaysia",
+    "Minimum Wage  (per month)↓": "$430.49",
+    "Date of Estimate": "December 26, 2001",
+    "Previous Value (per month)": "$430.49"
+  },
+  {
+    "": "",
+    "Country": "Jordan",
+    "Minimum Wage  (per month)↓": "$409.03",
+    "Date of Estimate": "January 25, 2001",
+    "Previous Value (per month)": "$409.03"
+  },
+  {
+    "": "",
+    "Country": "El Salvador",
+    "Minimum Wage  (per month)↓": "$409",
+    "Date of Estimate": "January 26, 2001",
+    "Previous Value (per month)": "$409"
+  },
+  {
+    "": "",
+    "Country": "Paraguay",
+    "Minimum Wage  (per month)↓": "$405.86",
+    "Date of Estimate": "December 25, 2001",
+    "Previous Value (per month)": "$405.86"
+  },
+  {
+    "": "",
+    "Country": "China",
+    "Minimum Wage  (per month)↓": "$391.66",
+    "Date of Estimate": "January 26, 2001",
+    "Previous Value (per month)": "$391.66"
+  },
+  {
+    "": "",
+    "Country": "Colombia",
+    "Minimum Wage  (per month)↓": "$384.35",
+    "Date of Estimate": "December 25, 2001",
+    "Previous Value (per month)": "$351"
+  },
+  {
+    "": "",
+    "Country": "Moldova",
+    "Minimum Wage  (per month)↓": "$368.87",
+    "Date of Estimate": "January 26, 2001",
+    "Previous Value (per month)": "$322.03"
+  },
+  {
+    "": "",
+    "Country": "Mauritius",
+    "Minimum Wage  (per month)↓": "$362.56",
+    "Date of Estimate": "January 26, 2001",
+    "Previous Value (per month)": "$362.56"
+  },
+  {
+    "": "",
+    "Country": "Honduras",
+    "Minimum Wage  (per month)↓": "$349.08",
+    "Date of Estimate": "January 25, 2001",
+    "Previous Value (per month)": "$330.88"
+  },
+  {
+    "": "",
+    "Country": "Indonesia",
+    "Minimum Wage  (per month)↓": "$343.80",
+    "Date of Estimate": "January 26, 2001",
+    "Previous Value (per month)": "$324"
+  },
+  {
+    "": "",
+    "Country": "Morocco",
+    "Minimum Wage  (per month)↓": "$332.54",
+    "Date of Estimate": "January 25, 2001",
+    "Previous Value (per month)": "$295.82"
+  },
+  {
+    "": "",
+    "Country": "Peru",
+    "Minimum Wage  (per month)↓": "$331.79",
+    "Date of Estimate": "November 25, 2001",
+    "Previous Value (per month)": "$331.79"
+  },
+  {
+    "": "",
+    "Country": "Mexico",
+    "Minimum Wage  (per month)↓": "$330.04",
+    "Date of Estimate": "December 25, 2001",
+    "Previous Value (per month)": "$330.04"
+  },
+  {
+    "": "",
+    "Country": "Bosnia and Herzegovina",
+    "Minimum Wage  (per month)↓": "$328.72",
+    "Date of Estimate": "January 25, 2001",
+    "Previous Value (per month)": "$328.72"
+  },
+  {
+    "": "",
+    "Country": "Brazil",
+    "Minimum Wage  (per month)↓": "$303.79",
+    "Date of Estimate": "December 25, 2001",
+    "Previous Value (per month)": "$284.49"
+  },
+  {
+    "": "",
+    "Country": "Belarus",
+    "Minimum Wage  (per month)↓": "$293.89",
+    "Date of Estimate": "January 26, 2001",
+    "Previous Value (per month)": "$248.68"
+  },
+  {
+    "": "",
+    "Country": "Dominican Republic",
+    "Minimum Wage  (per month)↓": "$269.85",
+    "Date of Estimate": "February 26, 2001",
+    "Previous Value (per month)": "$251.86"
+  },
+  {
+    "": "",
+    "Country": "Qatar",
+    "Minimum Wage  (per month)↓": "$269.43",
+    "Date of Estimate": "January 26, 2001",
+    "Previous Value (per month)": "$269.43"
+  },
+  {
+    "": "",
+    "Country": "South Africa",
+    "Minimum Wage  (per month)↓": "$268.78",
+    "Date of Estimate": "March 25, 2001",
+    "Previous Value (per month)": "$257.60"
+  },
+  {
+    "": "",
+    "Country": "Philippines",
+    "Minimum Wage  (per month)↓": "$254.64",
+    "Date of Estimate": "December 26, 2001",
+    "Previous Value (per month)": "$254.64"
+  },
+  {
+    "": "",
+    "Country": "Thailand",
+    "Minimum Wage  (per month)↓": "$252.63",
+    "Date of Estimate": "January 25, 2001",
+    "Previous Value (per month)": "$252.63"
+  },
+  {
+    "": "",
+    "Country": "Russia",
+    "Minimum Wage  (per month)↓": "$242.48",
+    "Date of Estimate": "January 25, 2001",
+    "Previous Value (per month)": "$200.84"
+  },
+  {
+    "": "",
+    "Country": "Mongolia",
+    "Minimum Wage  (per month)↓": "$237.60",
+    "Date of Estimate": "January 25, 2001",
+    "Previous Value (per month)": "$237.60"
+  },
+  {
+    "": "",
+    "Country": "Azerbaijan",
+    "Minimum Wage  (per month)↓": "$235.29",
+    "Date of Estimate": "January 26, 2001",
+    "Previous Value (per month)": "$235.29"
+  },
+  {
+    "": "",
+    "Country": "Argentina",
+    "Minimum Wage  (per month)↓": "$231.01",
+    "Date of Estimate": "December 25, 2001",
+    "Previous Value (per month)": "$226.60"
+  },
+  {
+    "": "",
+    "Country": "Nicaragua",
+    "Minimum Wage  (per month)↓": "$214.88",
+    "Date of Estimate": "March 25, 2001",
+    "Previous Value (per month)": "$206.63"
+  },
+  {
+    "": "",
+    "Country": "Vietnam",
+    "Minimum Wage  (per month)↓": "$212.40",
+    "Date of Estimate": "January 26, 2001",
+    "Previous Value (per month)": "$198.40"
+  },
+  {
+    "": "",
+    "Country": "Cambodia",
+    "Minimum Wage  (per month)↓": "$210",
+    "Date of Estimate": "January 26, 2001",
+    "Previous Value (per month)": "$208"
+  },
+  {
+    "": "",
+    "Country": "Ukraine",
+    "Minimum Wage  (per month)↓": "$202.86",
+    "Date of Estimate": "January 26, 2001",
+    "Previous Value (per month)": "$187.68"
+  },
+  {
+    "": "",
+    "Country": "Armenia",
+    "Minimum Wage  (per month)↓": "$190.50",
+    "Date of Estimate": "January 26, 2001",
+    "Previous Value (per month)": "$190.50"
+  },
+  {
+    "": "",
+    "Country": "Algeria",
+    "Minimum Wage  (per month)↓": "$184.32",
+    "Date of Estimate": "January 26, 2001",
+    "Previous Value (per month)": "$153.60"
+  },
+  {
+    "": "",
+    "Country": "Kazakhstan",
+    "Minimum Wage  (per month)↓": "$161.50",
+    "Date of Estimate": "January 25, 2001",
+    "Previous Value (per month)": "$161.50"
+  },
+  {
+    "": "",
+    "Country": "Tunisia",
+    "Minimum Wage  (per month)↓": "$148.96",
+    "Date of Estimate": "November 25, 2001",
+    "Previous Value (per month)": "$148.96"
+  },
+  {
+    "": "",
+    "Country": "Egypt",
+    "Minimum Wage  (per month)↓": "$146.65",
+    "Date of Estimate": "January 26, 2001",
+    "Previous Value (per month)": "$146.65"
+  },
+  {
+    "": "",
+    "Country": "Papua New Guinea",
+    "Minimum Wage  (per month)↓": "$144.06",
+    "Date of Estimate": "September 25, 2001",
+    "Previous Value (per month)": "$144.06"
+  },
+  {
+    "": "",
+    "Country": "Lesotho",
+    "Minimum Wage  (per month)↓": "$135.15",
+    "Date of Estimate": "January 26, 2001",
+    "Previous Value (per month)": "$128.10"
+  },
+  {
+    "": "",
+    "Country": "Pakistan",
+    "Minimum Wage  (per month)↓": "$129.87",
+    "Date of Estimate": "July 25, 2001",
+    "Previous Value (per month)": "$129.87"
+  },
+  {
+    "": "",
+    "Country": "Laos",
+    "Minimum Wage  (per month)↓": "$125",
+    "Date of Estimate": "January 26, 2001",
+    "Previous Value (per month)": "$125"
+  },
+  {
+    "": "",
+    "Country": "Cape Verde",
+    "Minimum Wage  (per month)↓": "$122.46",
+    "Date of Estimate": "January 25, 2001",
+    "Previous Value (per month)": "$122.46"
+  },
+  {
+    "": "",
+    "Country": "Kenya",
+    "Minimum Wage  (per month)↓": "$116.90",
+    "Date of Estimate": "May 25, 2001",
+    "Previous Value (per month)": "$116.90"
+  },
+  {
+    "": "",
+    "Country": "Botswana",
+    "Minimum Wage  (per month)↓": "$111.24",
+    "Date of Estimate": "January 25, 2001",
+    "Previous Value (per month)": "$90.07"
+  },
+  {
+    "": "",
+    "Country": "Mozambique",
+    "Minimum Wage  (per month)↓": "$103.73",
+    "Date of Estimate": "July 25, 2001",
+    "Previous Value (per month)": "$98.30"
+  },
+  {
+    "": "",
+    "Country": "Uzbekistan",
+    "Minimum Wage  (per month)↓": "$101.68",
+    "Date of Estimate": "January 26, 2001",
+    "Previous Value (per month)": "$92.40"
+  },
+  {
+    "": "",
+    "Country": "Bangladesh",
+    "Minimum Wage  (per month)↓": "$101.50",
+    "Date of Estimate": "December 25, 2001",
+    "Previous Value (per month)": "$101.50"
+  },
+  {
+    "": "",
+    "Country": "Benin",
+    "Minimum Wage  (per month)↓": "$93.08",
+    "Date of Estimate": "January 26, 2001",
+    "Previous Value (per month)": "$93.08"
+  },
+  {
+    "": "",
+    "Country": "Tajikistan",
+    "Minimum Wage  (per month)↓": "$90.63",
+    "Date of Estimate": "January 25, 2001",
+    "Previous Value (per month)": "$72.50"
+  },
+  {
+    "": "",
+    "Country": "Sri Lanka",
+    "Minimum Wage  (per month)↓": "$56.53",
+    "Date of Estimate": "December 25, 2001",
+    "Previous Value (per month)": "$56.53"
+  },
+  {
+    "": "",
+    "Country": "Madagascar",
+    "Minimum Wage  (per month)↓": "$55.16",
+    "Date of Estimate": "January 25, 2001",
+    "Previous Value (per month)": "$55.16"
+  },
+  {
+    "": "",
+    "Country": "Netherlands",
+    "Minimum Wage  (per month)↓": "$53.93",
+    "Date of Estimate": "January 26, 2001",
+    "Previous Value (per month)": "$53.10"
+  },
+  {
+    "": "",
+    "Country": "Myanmar",
+    "Minimum Wage  (per month)↓": "$48.86",
+    "Date of Estimate": "December 25, 2001",
+    "Previous Value (per month)": "$48.86"
+  },
+  {
+    "": "",
+    "Country": "Nigeria",
+    "Minimum Wage  (per month)↓": "$45.50",
+    "Date of Estimate": "January 25, 2001",
+    "Previous Value (per month)": "$45.50"
+  },
+  {
+    "": "",
+    "Country": "India",
+    "Minimum Wage  (per month)↓": "$43.15",
+    "Date of Estimate": "December 25, 2001",
+    "Previous Value (per month)": "$43.15"
+  },
+  {
+    "": "",
+    "Country": "Kyrgyzstan",
+    "Minimum Wage  (per month)↓": "$37.52",
+    "Date of Estimate": "December 25, 2001",
+    "Previous Value (per month)": "$28.14"
+  },
+  {
+    "": "",
+    "Country": "Uganda",
+    "Minimum Wage  (per month)↓": "$35.10",
+    "Date of Estimate": "January 26, 2001",
+    "Previous Value (per month)": "$35.10"
+  },
+  {
+    "": "",
+    "Country": "Angola",
+    "Minimum Wage  (per month)↓": "$35.08",
+    "Date of Estimate": "December 25, 2001",
+    "Previous Value (per month)": "$35.08"
+  },
+  {
+    "": "",
+    "Country": "Ghana",
+    "Minimum Wage  (per month)↓": "$32.01",
+    "Date of Estimate": "January 25, 2001",
+    "Previous Value (per month)": "$32.01"
+  },
+  {
+    "": "",
+    "Country": "Tanzania",
+    "Minimum Wage  (per month)↓": "$32",
+    "Date of Estimate": "January 26, 2001",
+    "Previous Value (per month)": "$24"
+  },
+  {
+    "": "",
+    "Country": "Haiti",
+    "Minimum Wage  (per month)↓": "$4.09",
+    "Date of Estimate": "January 25, 2001",
+    "Previous Value (per month)": "$4.09"
+  },
+  {
+    "": "",
+    "Country": "Ethiopia",
+    "Minimum Wage  (per month)↓": "$2.70",
+    "Date of Estimate": "January 26, 2001",
+    "Previous Value (per month)": "$2.70"
+  },
+  {
+    "": "",
+    "Country": "Venezuela",
+    "Minimum Wage  (per month)↓": "$0.33",
+    "Date of Estimate": "December 25, 2001",
+    "Previous Value (per month)": "$0.33"
+  }
+]
