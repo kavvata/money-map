@@ -2,9 +2,17 @@ import { Elysia } from "elysia";
 import { requestHandler } from "./scrape/amazonScraper";
 import { CheerioCrawler } from "crawlee";
 import cors from "@elysia/cors";
+import { getBrazil, getFullGeojson } from "./map/geojsonService";
 
 const app = new Elysia()
-  .get("/", () => "Hello Elysia")
+  .use(
+    cors({
+      origin: ["http://localhost:5173", "http://localhost:3000"],
+    }),
+  )
+  .get("/", async () => {
+    return await getBrazil();
+  })
   .get("/scrape", async () => {
     const crawler = new CheerioCrawler({
       preNavigationHooks: [
@@ -19,9 +27,14 @@ const app = new Elysia()
       "https://www.amazon.com.br/Dumbbell-Halter-Gallant-Elite-Regul%C3%A1vel/dp/B0CM6TVWZ8",
     ]);
 
-    return crawler.getData();
+    const crawlerData = await crawler.getData();
+    const scrapedItem = crawlerData.items;
+
+    // const usdValue = getUsdPrice(scrapedItem)
+    // const geojsonWithTimeValue = mapToTime(usdValue)
+
+    return scrapedItem;
   })
-  .use(cors())
   .listen(3000);
 
 console.log(

@@ -4,21 +4,25 @@ import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 import "./App.css";
 import { useCallback, useEffect, useState } from "react";
-import geoJsonData from "./assets/geojson/countries.json";
 import { Layers, X } from "lucide-react";
+import type { Feature, FeatureCollection, Geometry } from "geojson";
+import type { GeoJsonProperties } from "./types/types.ts";
 
 function CustomLayer() {
   const { map, isLoaded } = useMap();
   const [isLayerVisible, setIsLayerVisible] = useState(false);
   const [hoveredCountry, setHoveredCountry] = useState<string | null>(null);
 
-  const addLayers = useCallback(() => {
+  const addLayers = useCallback(async () => {
     if (!map) return;
+    const response = await fetch("http://localhost:3000/");
+    const geojsonData: FeatureCollection<Geometry, GeoJsonProperties> =
+      await response.json();
     // Add source if it doesn't exist
     if (!map.getSource("countries")) {
       map.addSource("countries", {
         type: "geojson",
-        data: geoJsonData,
+        data: geojsonData,
       });
     }
 
@@ -75,8 +79,9 @@ function CustomLayer() {
       const features = map.queryRenderedFeatures(e.point, {
         layers: ["countries-fill"],
       });
+
       if (features.length > 0) {
-        setHoveredCountry(features[0].properties?.name || null);
+        setHoveredCountry(features[0].properties?.value || null);
       }
     };
 

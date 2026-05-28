@@ -1,0 +1,816 @@
+{
+  "baseCurrency": "USD",
+  "timestamp": "2026-05-28T00:52:36.386Z",
+  "rates": [
+    {
+      "currencyCode": "BRL",
+      "currencyName": "巴西雷亚尔 Brazil (BRL)",
+      "rate": 5.0744
+    },
+    {
+      "currencyCode": "SGD",
+      "currencyName": "新币 Singapore (SGD)",
+      "rate": 1.27799
+    },
+    {
+      "currencyCode": "CNH",
+      "currencyName": "人民币 China (CNH)",
+      "rate": 6.77919
+    },
+    {
+      "currencyCode": "AUD",
+      "currencyName": "澳币 Australian (AUD)",
+      "rate": 1.40203
+    },
+    {
+      "currencyCode": "GBP",
+      "currencyName": "英镑 United Kingdom (GBP)",
+      "rate": 0.745408
+    },
+    {
+      "currencyCode": "MYR",
+      "currencyName": "马币 Malaysia (MYR)",
+      "rate": 3.9676
+    },
+    {
+      "currencyCode": "CAD",
+      "currencyName": "加币 Canada (CAD)",
+      "rate": 1.38451
+    },
+    {
+      "currencyCode": "EUR",
+      "currencyName": "欧元 Europe Union (EUR)",
+      "rate": 0.860783
+    },
+    {
+      "currencyCode": "JPY",
+      "currencyName": "日元 Japan (JPY)",
+      "rate": 159.573
+    },
+    {
+      "currencyCode": "CHF",
+      "currencyName": "瑞士法郎 Switzerland (CHF)",
+      "rate": 0.787912
+    },
+    {
+      "currencyCode": "ZAR",
+      "currencyName": "南非兰特 South Africa (ZAR)",
+      "rate": 16.3804
+    },
+    {
+      "currencyCode": "AFN",
+      "currencyName": "阿富汗尼 Afghanistan (AFN)",
+      "rate": 62.5
+    },
+    {
+      "currencyCode": "ALL",
+      "currencyName": "欧元 Albania (ALL)",
+      "rate": 81.8739
+    },
+    {
+      "currencyCode": "DZD",
+      "currencyName": "阿尔及利亚第纳尔 Algeria (DZD)",
+      "rate": 133.299
+    },
+    {
+      "currencyCode": "AOA",
+      "currencyName": "安哥拉宽扎 Angola (AOA)",
+      "rate": 913.116
+    },
+    {
+      "currencyCode": "XCD",
+      "currencyName": "东加勒比元 Anguilla (XCD)",
+      "rate": 2.70255
+    },
+    {
+      "currencyCode": "ARS",
+      "currencyName": "阿根廷比索 Argentina (ARS)",
+      "rate": 1412.26
+    },
+    {
+      "currencyCode": "AMD",
+      "currencyName": "亚美尼亚德拉姆 Armenia (AMD)",
+      "rate": 367.841
+    },
+    {
+      "currencyCode": "ANG",
+      "currencyName": "阿鲁巴盾／弗罗林 Aruba (ANG)",
+      "rate": 1.79
+    },
+    {
+      "currencyCode": "AZN",
+      "currencyName": "阿塞拜疆马纳特 Azerbaijan (AZN)",
+      "rate": 1.7
+    },
+    {
+      "currencyCode": "BSD",
+      "currencyName": "巴哈马元 Bahamas (BSD)",
+      "rate": 1
+    },
+    {
+      "currencyCode": "BHD",
+      "currencyName": "巴林第纳尔 Bahrain (BHD)",
+      "rate": 0.37722
+    },
+    {
+      "currencyCode": "BDT",
+      "currencyName": "孟加拉塔卡 Bangladesh (BDT)",
+      "rate": 122.759
+    },
+    {
+      "currencyCode": "BBD",
+      "currencyName": "巴巴多斯元 Barbados (BBD)",
+      "rate": 2
+    },
+    {
+      "currencyCode": "BYR",
+      "currencyName": "白俄罗斯卢布 Belarus (BYR)",
+      "rate": 19600
+    },
+    {
+      "currencyCode": "BZD",
+      "currencyName": "伯利兹元 Belize (BZD)",
+      "rate": 2.01111
+    },
+    {
+      "currencyCode": "XOF",
+      "currencyName": "西非国家中央银行非洲法郎 Benin (XOF)",
+      "rate": 564.637
+    },
+    {
+      "currencyCode": "BMD",
+      "currencyName": "百慕大元 Bermuda (BMD)",
+      "rate": 1
+    },
+    {
+      "currencyCode": "BOB",
+      "currencyName": "玻利维亚比索 Bolivia (BOB)",
+      "rate": 6.90988
+    },
+    {
+      "currencyCode": "BAM",
+      "currencyName": "波斯尼亚马克 Bosnia and Herzegovina (BAM)",
+      "rate": 1.68026
+    },
+    {
+      "currencyCode": "BWP",
+      "currencyName": "博茨瓦纳普拉 Botswana (BWP)",
+      "rate": 13.4632
+    },
+    {
+      "currencyCode": "BND",
+      "currencyName": "文莱元 Brunei Darussalam (BND)",
+      "rate": 1.27732
+    },
+    {
+      "currencyCode": "BGN",
+      "currencyName": "欧元 Bulgaria (BGN)",
+      "rate": 1.68335
+    },
+    {
+      "currencyCode": "BIF",
+      "currencyName": "布隆迪法郎 Burundi (BIF)",
+      "rate": 2975.32
+    },
+    {
+      "currencyCode": "KHR",
+      "currencyName": "柬埔寨瑞尔 Cambodia (KHR)",
+      "rate": 4022.6
+    },
+    {
+      "currencyCode": "XAF",
+      "currencyName": "中非共同体法郎 Cameroon (XAF)",
+      "rate": 564.637
+    },
+    {
+      "currencyCode": "CVE",
+      "currencyName": "佛得角群岛埃斯库多 Cape Verde (CVE)",
+      "rate": 94.8981
+    },
+    {
+      "currencyCode": "KYD",
+      "currencyName": "开曼元 Cayman Islands (KYD)",
+      "rate": 0.833344
+    },
+    {
+      "currencyCode": "CLP",
+      "currencyName": "智利比索 Chile (CLP)",
+      "rate": 894.53
+    },
+    {
+      "currencyCode": "COP",
+      "currencyName": "哥伦比亚比索 Colombia (COP)",
+      "rate": 3675.83
+    },
+    {
+      "currencyCode": "KMF",
+      "currencyName": "科摩罗法郎 Comoros (KMF)",
+      "rate": 424
+    },
+    {
+      "currencyCode": "CDF",
+      "currencyName": "刚果法郎 Congo (Kinshasa) (CDF)",
+      "rate": 2272.45
+    },
+    {
+      "currencyCode": "CRC",
+      "currencyName": "哥斯达黎加科朗 Costa Rica (CRC)",
+      "rate": 452.749
+    },
+    {
+      "currencyCode": "HRK",
+      "currencyName": "欧元 Croatia (Hrvatska) (HRK)",
+      "rate": 6.48484
+    },
+    {
+      "currencyCode": "CUP",
+      "currencyName": "古巴披索 Cuba (CUP)",
+      "rate": 25.75
+    },
+    {
+      "currencyCode": "CZK",
+      "currencyName": "捷克克朗 Czech Republic (CZK)",
+      "rate": 20.9074
+    },
+    {
+      "currencyCode": "DKK",
+      "currencyName": "丹麦克朗 Denmark (DKK)",
+      "rate": 6.43233
+    },
+    {
+      "currencyCode": "DJF",
+      "currencyName": "吉布提法郎 Djibouti (DJF)",
+      "rate": 177.962
+    },
+    {
+      "currencyCode": "DOP",
+      "currencyName": "多米尼加比索 Dominican Republic (DOP)",
+      "rate": 59.0979
+    },
+    {
+      "currencyCode": "IDR",
+      "currencyName": "East Timor (IDR)",
+      "rate": 17811
+    },
+    {
+      "currencyCode": "EGP",
+      "currencyName": "埃及镑 Egypt (EGP)",
+      "rate": 52.214
+    },
+    {
+      "currencyCode": "SVC",
+      "currencyName": "美元 El Salvador (SVC)",
+      "rate": 8.74922
+    },
+    {
+      "currencyCode": "ETB",
+      "currencyName": "厄立特里亚纳克法 Eritrea (ETB)",
+      "rate": 159.759
+    },
+    {
+      "currencyCode": "EEK",
+      "currencyName": "欧元 Estonia (EEK)",
+      "rate": 13.947
+    },
+    {
+      "currencyCode": "ETB",
+      "currencyName": "埃塞俄比亚比尔 Ethiopia (ETB)",
+      "rate": 159.759
+    },
+    {
+      "currencyCode": "FKP",
+      "currencyName": "Falkland Islands (Malvinas) (FKP)",
+      "rate": 0.745408
+    },
+    {
+      "currencyCode": "DKK",
+      "currencyName": "丹麦克朗 Faroe Islands (DKK)",
+      "rate": 6.43233
+    },
+    {
+      "currencyCode": "FJD",
+      "currencyName": "斐济元 Fiji (FJD)",
+      "rate": 2.2203
+    },
+    {
+      "currencyCode": "XPF",
+      "currencyName": "太平洋法郎 French Polynesia (XPF)",
+      "rate": 102.719
+    },
+    {
+      "currencyCode": "GMD",
+      "currencyName": "冈比亚达拉西 Gambia (GMD)",
+      "rate": 73
+    },
+    {
+      "currencyCode": "GEL",
+      "currencyName": "格鲁吉亚拉里 Georgia (GEL)",
+      "rate": 2.665
+    },
+    {
+      "currencyCode": "GHS",
+      "currencyName": "加纳塞地 Ghana (GHS)",
+      "rate": 10.7037
+    },
+    {
+      "currencyCode": "GIP",
+      "currencyName": "直布罗陀镑 Gibraltar (GIP)",
+      "rate": 0.745408
+    },
+    {
+      "currencyCode": "DKK",
+      "currencyName": "丹麦克朗 Greenland (DKK)",
+      "rate": 6.43233
+    },
+    {
+      "currencyCode": "GTQ",
+      "currencyName": "危地马拉格查尔 Guatemala (GTQ)",
+      "rate": 7.62718
+    },
+    {
+      "currencyCode": "GGP",
+      "currencyName": "英镑 Guernsey (GGP)",
+      "rate": 0.745408
+    },
+    {
+      "currencyCode": "GNF",
+      "currencyName": "几内亚法郎 Guinea (GNF)",
+      "rate": 8773.05
+    },
+    {
+      "currencyCode": "GYD",
+      "currencyName": "圭亚那元 Guyana (GYD)",
+      "rate": 209.167
+    },
+    {
+      "currencyCode": "HTG",
+      "currencyName": "海地古德 Haiti (HTG)",
+      "rate": 130.945
+    },
+    {
+      "currencyCode": "HNL",
+      "currencyName": "洪都拉斯伦皮拉 Honduras (HNL)",
+      "rate": 26.6094
+    },
+    {
+      "currencyCode": "HKD",
+      "currencyName": "港币 Hong Kong (HKD)",
+      "rate": 7.83394
+    },
+    {
+      "currencyCode": "HUF",
+      "currencyName": "匈牙利福林 Hungary (HUF)",
+      "rate": 305.396
+    },
+    {
+      "currencyCode": "ISK",
+      "currencyName": "冰岛克朗 Iceland (ISK)",
+      "rate": 123.26
+    },
+    {
+      "currencyCode": "INR",
+      "currencyName": "印度卢比 India (INR)",
+      "rate": 96.1405
+    },
+    {
+      "currencyCode": "IDR",
+      "currencyName": "印尼盾 Indonesia (IDR)",
+      "rate": 17811
+    },
+    {
+      "currencyCode": "IRR",
+      "currencyName": "Iran (Islamic Republic of) (IRR)",
+      "rate": 1342000
+    },
+    {
+      "currencyCode": "IQD",
+      "currencyName": "伊拉克第纳尔 Iraq (IQD)",
+      "rate": 1310
+    },
+    {
+      "currencyCode": "ILS",
+      "currencyName": "以色列谢克尔 Israel (ILS)",
+      "rate": 2.82696
+    },
+    {
+      "currencyCode": "JMD",
+      "currencyName": "牙买加元 Jamaica (JMD)",
+      "rate": 157.501
+    },
+    {
+      "currencyCode": "JOD",
+      "currencyName": "约旦第纳尔 Jordan (JOD)",
+      "rate": 0.709
+    },
+    {
+      "currencyCode": "KZT",
+      "currencyName": "哈萨克斯坦坚戈 Kazakhstan (KZT)",
+      "rate": 479.931
+    },
+    {
+      "currencyCode": "KES",
+      "currencyName": "肯尼亚先令 Kenya (KES)",
+      "rate": 129.55
+    },
+    {
+      "currencyCode": "KPW",
+      "currencyName": "Korea North (KPW)",
+      "rate": 900
+    },
+    {
+      "currencyCode": "KRW",
+      "currencyName": "韩圆 Korea South (KRW)",
+      "rate": 1503.37
+    },
+    {
+      "currencyCode": "KWD",
+      "currencyName": "科威特第纳尔 Kuwait (KWD)",
+      "rate": 0.3096
+    },
+    {
+      "currencyCode": "KGS",
+      "currencyName": "吉尔吉斯索姆 Kyrgyzstan (KGS)",
+      "rate": 87.45
+    },
+    {
+      "currencyCode": "LAK",
+      "currencyName": "老挝基普 Laos (LAK)",
+      "rate": 21932.7
+    },
+    {
+      "currencyCode": "LVL",
+      "currencyName": "拉脱维亚拉特 Latvia (LVL)",
+      "rate": 0.60489
+    },
+    {
+      "currencyCode": "LBP",
+      "currencyName": "黎巴嫩镑 Lebanon (LBP)",
+      "rate": 89558.9
+    },
+    {
+      "currencyCode": "LSL",
+      "currencyName": "莱索托洛蒂 Lesotho (LSL)",
+      "rate": 16.36
+    },
+    {
+      "currencyCode": "LRD",
+      "currencyName": "利比里亚元 Liberia (LRD)",
+      "rate": 183.039
+    },
+    {
+      "currencyCode": "LYD",
+      "currencyName": "利比亚第纳尔 Libyan Arab Jamahiriya (LYD)",
+      "rate": 6.35
+    },
+    {
+      "currencyCode": "LTL",
+      "currencyName": "欧元 Lithuania (LTL)",
+      "rate": 2.95274
+    },
+    {
+      "currencyCode": "MOP",
+      "currencyName": "澳门元 Macao S.A.R. (MOP)",
+      "rate": 8.06892
+    },
+    {
+      "currencyCode": "MKD",
+      "currencyName": "欧元 Macedonia (MKD)",
+      "rate": 52.9988
+    },
+    {
+      "currencyCode": "MGA",
+      "currencyName": "马达加斯加阿里亚里 Madagascar (MGA)",
+      "rate": 4202.81
+    },
+    {
+      "currencyCode": "MWK",
+      "currencyName": "马拉维克瓦查 Malawi (MWK)",
+      "rate": 1737
+    },
+    {
+      "currencyCode": "MVR",
+      "currencyName": "马尔代夫卢比 Maldives (MVR)",
+      "rate": 15.4
+    },
+    {
+      "currencyCode": "MRO",
+      "currencyName": "毛里塔尼亚乌吉亚 Mauritania (MRO)",
+      "rate": 357
+    },
+    {
+      "currencyCode": "MUR",
+      "currencyName": "毛里求斯卢比 Mauritius (MUR)",
+      "rate": 47.31
+    },
+    {
+      "currencyCode": "MXN",
+      "currencyName": "墨西哥比索 Mexico (MXN)",
+      "rate": 17.3882
+    },
+    {
+      "currencyCode": "MDL",
+      "currencyName": "摩尔多瓦列伊 Moldova Republic of (MDL)",
+      "rate": 17.2103
+    },
+    {
+      "currencyCode": "MNT",
+      "currencyName": "蒙古图格里克 Mongolia (MNT)",
+      "rate": 3569.47
+    },
+    {
+      "currencyCode": "MAD",
+      "currencyName": "摩洛哥迪拉姆 Morocco (MAD)",
+      "rate": 9.19375
+    },
+    {
+      "currencyCode": "MZN",
+      "currencyName": "莫桑比克梅蒂卡尔 Mozambique (MZN)",
+      "rate": 63.9
+    },
+    {
+      "currencyCode": "MMK",
+      "currencyName": "Myanmar (MMK)",
+      "rate": 2099.81
+    },
+    {
+      "currencyCode": "NAD",
+      "currencyName": "纳米比亚元 Namibia (NAD)",
+      "rate": 16.36
+    },
+    {
+      "currencyCode": "NPR",
+      "currencyName": "尼泊尔卢比 Nepal (NPR)",
+      "rate": 153.126
+    },
+    {
+      "currencyCode": "ANG",
+      "currencyName": "Netherlands Antilles (ANG)",
+      "rate": 1.79
+    },
+    {
+      "currencyCode": "XPF",
+      "currencyName": "太平洋法郎 New Caledonia (XPF)",
+      "rate": 102.719
+    },
+    {
+      "currencyCode": "NZD",
+      "currencyName": "新西兰元 New Zealand (NZD)",
+      "rate": 1.69739
+    },
+    {
+      "currencyCode": "NIO",
+      "currencyName": "尼加拉瓜金科多巴 Nicaragua (NIO)",
+      "rate": 36.7959
+    },
+    {
+      "currencyCode": "NGN",
+      "currencyName": "尼日利亚奈拉 Nigeria (NGN)",
+      "rate": 1373.9
+    },
+    {
+      "currencyCode": "NOK",
+      "currencyName": "挪威克朗 Norway (NOK)",
+      "rate": 9.2814
+    },
+    {
+      "currencyCode": "OMR",
+      "currencyName": "阿曼里亚尔 Oman (OMR)",
+      "rate": 0.384497
+    },
+    {
+      "currencyCode": "PKR",
+      "currencyName": "巴基斯坦卢比 Pakistan (PKR)",
+      "rate": 278.534
+    },
+    {
+      "currencyCode": "JOD",
+      "currencyName": "Palestinian Territory (JOD)",
+      "rate": 0.709
+    },
+    {
+      "currencyCode": "PAB",
+      "currencyName": "巴拿马巴波亚 Panama (PAB)",
+      "rate": 1
+    },
+    {
+      "currencyCode": "PGK",
+      "currencyName": "巴布亚基纳 Papua New Guinea (PGK)",
+      "rate": 4.36516
+    },
+    {
+      "currencyCode": "PYG",
+      "currencyName": "巴拉圭瓜拉尼 Paraguay (PYG)",
+      "rate": 6128.93
+    },
+    {
+      "currencyCode": "PEN",
+      "currencyName": "秘鲁新索尔 Peru (PEN)",
+      "rate": 3.40613
+    },
+    {
+      "currencyCode": "PHP",
+      "currencyName": "菲律宾比索 Philippines (PHP)",
+      "rate": 61.4545
+    },
+    {
+      "currencyCode": "PLN",
+      "currencyName": "波兰兹罗提 Poland (PLN)",
+      "rate": 3.64494
+    },
+    {
+      "currencyCode": "QAR",
+      "currencyName": "卡塔尔里亚尔 Qatar (QAR)",
+      "rate": 3.64548
+    },
+    {
+      "currencyCode": "RON",
+      "currencyName": "罗马尼亚列伊 Romania (RON)",
+      "rate": 4.5145
+    },
+    {
+      "currencyCode": "RUB",
+      "currencyName": "俄罗斯卢布 Russian Federation (RUB)",
+      "rate": 70.8979
+    },
+    {
+      "currencyCode": "RWF",
+      "currencyName": "卢旺达法郎 Rwanda (RWF)",
+      "rate": 1467.46
+    },
+    {
+      "currencyCode": "ANG",
+      "currencyName": "Saint Martin (French part) (ANG)",
+      "rate": 1.79
+    },
+    {
+      "currencyCode": "STD",
+      "currencyName": "圣多美和普林西比多布拉 Sao Tome and Principe (STD)",
+      "rate": 22281.8
+    },
+    {
+      "currencyCode": "SAR",
+      "currencyName": "沙特里亚尔 Saudi Arabia (SAR)",
+      "rate": 3.74163
+    },
+    {
+      "currencyCode": "RSD",
+      "currencyName": "塞尔维亚第纳尔 Serbia (RSD)",
+      "rate": 101.044
+    },
+    {
+      "currencyCode": "SCR",
+      "currencyName": "塞舌尔卢比 Seychelles (SCR)",
+      "rate": 13.6321
+    },
+    {
+      "currencyCode": "SLL",
+      "currencyName": "塞拉利昂 利昂 Sierra Leone (SLL)",
+      "rate": 20969.5
+    },
+    {
+      "currencyCode": "SBD",
+      "currencyName": "所罗门群岛元 Solomon Islands (SBD)",
+      "rate": 8.04858
+    },
+    {
+      "currencyCode": "SOS",
+      "currencyName": "Somalia (SOS)",
+      "rate": 571.48
+    },
+    {
+      "currencyCode": "LKR",
+      "currencyName": "斯里 兰卡卢比 Sri Lanka (LKR)",
+      "rate": 332.03
+    },
+    {
+      "currencyCode": "SDG",
+      "currencyName": "Sudan (SDG)",
+      "rate": 600
+    },
+    {
+      "currencyCode": "SRD",
+      "currencyName": "苏里南盾 Suriname (SRD)",
+      "rate": 37.299
+    },
+    {
+      "currencyCode": "SZL",
+      "currencyName": "斯威士兰 里兰吉尼 Swaziland (SZL)",
+      "rate": 16.36
+    },
+    {
+      "currencyCode": "SEK",
+      "currencyName": "瑞典克朗 Sweden (SEK)",
+      "rate": 9.30469
+    },
+    {
+      "currencyCode": "SYP",
+      "currencyName": "Syrian Arab Republic (SYP)",
+      "rate": 13002
+    },
+    {
+      "currencyCode": "TWD",
+      "currencyName": "新台币 Taiwan (TWD)",
+      "rate": 31.4809
+    },
+    {
+      "currencyCode": "TJS",
+      "currencyName": "塔吉克斯坦共和国 索莫尼 Tajikistan (TJS)",
+      "rate": 9.23436
+    },
+    {
+      "currencyCode": "TZS",
+      "currencyName": "坦桑尼亚先令 Tanzania (TZS)",
+      "rate": 2620
+    },
+    {
+      "currencyCode": "THB",
+      "currencyName": "泰铢 Thailand (THB)",
+      "rate": 32.66
+    },
+    {
+      "currencyCode": "TOP",
+      "currencyName": "汤加 潘加 Tonga (TOP)",
+      "rate": 2.40776
+    },
+    {
+      "currencyCode": "TTD",
+      "currencyName": "特立尼达和多巴哥元 Trinidad and Tobago (TTD)",
+      "rate": 6.79381
+    },
+    {
+      "currencyCode": "TND",
+      "currencyName": "突尼斯第纳尔 Tunisia (TND)",
+      "rate": 2.92537
+    },
+    {
+      "currencyCode": "TRY",
+      "currencyName": "土耳其里拉 Turkey (TRY)",
+      "rate": 45.8978
+    },
+    {
+      "currencyCode": "TMT",
+      "currencyName": "土库曼斯坦斯坦马纳特 Turkmenistan (TMT)",
+      "rate": 3.51
+    },
+    {
+      "currencyCode": "UGX",
+      "currencyName": "乌干达先令 Uganda (UGX)",
+      "rate": 3772.35
+    },
+    {
+      "currencyCode": "UAH",
+      "currencyName": "乌克兰 格里夫纳 Ukraine (UAH)",
+      "rate": 44.2997
+    },
+    {
+      "currencyCode": "AED",
+      "currencyName": "阿联酋迪拉姆 United Arab Emirates (AED)",
+      "rate": 3.6725
+    },
+    {
+      "currencyCode": "UYU",
+      "currencyName": "乌拉圭比索 Uruguay (UYU)",
+      "rate": 40.0703
+    },
+    {
+      "currencyCode": "UZS",
+      "currencyName": "乌兹别克斯坦斯坦索姆 Uzbekistan (UZS)",
+      "rate": 12000.8
+    },
+    {
+      "currencyCode": "VUV",
+      "currencyName": "瓦努阿图 瓦图 Vanuatu (VUV)",
+      "rate": 119.389
+    },
+    {
+      "currencyCode": "VEF",
+      "currencyName": "委内瑞拉博利瓦 Venezuela (VEF)",
+      "rate": 248488
+    },
+    {
+      "currencyCode": "VND",
+      "currencyName": "越南盾 Vietnam (VND)",
+      "rate": 26340.1
+    },
+    {
+      "currencyCode": "XPF",
+      "currencyName": "太平洋法郎 Wallis and Futuna Islands (XPF)",
+      "rate": 102.719
+    },
+    {
+      "currencyCode": "MAD",
+      "currencyName": "Western Sahara (MAD)",
+      "rate": 9.19375
+    },
+    {
+      "currencyCode": "YER",
+      "currencyName": "也门里亚尔 Yemen (YER)",
+      "rate": 238.65
+    },
+    {
+      "currencyCode": "ZMK",
+      "currencyName": "赞比亚克瓦查 Zambia (ZMK)",
+      "rate": 9001.2
+    }
+  ]
+}
