@@ -1,1 +1,70 @@
-export const getUsdPrice = async (value: number, currency: string) => {};
+import exchangeRatesJson from "../../data/rates.json";
+import minimumWageJson from "../../data/minimumWage.json";
+
+interface CurrencyRate {
+  currencyCode: string;
+  currencyName: string;
+  rate: number;
+}
+
+interface CurrencyRates {
+  baseCurrency: string;
+  timestamp: Date;
+  rates: Array<CurrencyRate>;
+}
+
+interface MinimumWage {
+  country: string;
+  minimumWage: number;
+  dateEstimate: string;
+  previousValue: number;
+}
+
+const CURRENCIES = {
+  BRL: ["R$", "BRL"],
+  USD: ["$", "USD"],
+} as const;
+
+const AVERAGE_HOURS_WORKED_IN_ONE_MONTH = 173.33;
+
+export const getUsdPrice = async (
+  value: number,
+  currency: string,
+): Promise<number> => {
+  const currencyValues = CURRENCIES as Record<string, readonly string[]>;
+
+  const normalizedCurrency = Object.keys(CURRENCIES).find((key) =>
+    currencyValues[key].includes(currency),
+  ) as keyof CurrencyRates;
+
+  if (!normalizedCurrency) {
+    throw new Error(`Currency "${currency}" not found.`);
+  }
+
+  const exchangeRates = exchangeRatesJson as CurrencyRates;
+  const originalRate = exchangeRates.rates.find(
+    (r) => r.currencyCode == normalizedCurrency,
+  );
+
+  if (!originalRate) {
+    throw new Error(
+      `originalRate from normalized currency ${normalizedCurrency} not found.`,
+    );
+  }
+
+  return value * originalRate.rate;
+};
+
+const usdToTime = (price: number, countryName: string) => {
+  const minimumWages = minimumWageJson as Array<MinimumWage>;
+
+  const countryWage = minimumWages.find((w) => w.country == countryName);
+  if (!countryWage) {
+    throw new Error(`Country "${countryName}" not found`);
+  }
+
+  const hourlyWage =
+    countryWage.minimumWage / AVERAGE_HOURS_WORKED_IN_ONE_MONTH;
+
+  return price / hourlyWage;
+};
