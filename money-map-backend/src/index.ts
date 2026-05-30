@@ -11,8 +11,8 @@ const app = new Elysia()
       origin: ["http://localhost:5173", "http://localhost:3000"],
     }),
   )
-  .get("/", async () => {
-    return await getBrazil();
+  .get("/", (): string => {
+    return `🦊 Elysia is running at ${app.server?.hostname}:${app.server?.port}`;
   })
   .get("/scrape", async () => {
     const crawler = new CheerioCrawler({
