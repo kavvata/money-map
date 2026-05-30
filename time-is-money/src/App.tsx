@@ -5,24 +5,26 @@ import { Button } from "@/components/ui/button";
 import "./App.css";
 import { useCallback, useEffect, useState } from "react";
 import { Layers, X } from "lucide-react";
-import type { Feature, FeatureCollection, Geometry } from "geojson";
+import type { FeatureCollection, Geometry } from "geojson";
 import type { GeoJsonProperties } from "./types/types.ts";
+import { hoursToNatural } from "./utils/time.ts";
 
-function CustomLayer() {
+function CustomLayer({
+  geojsonData,
+}: {
+  geojsonData: FeatureCollection<Geometry, GeoJsonProperties> | null;
+}) {
   const { map, isLoaded } = useMap();
   const [isLayerVisible, setIsLayerVisible] = useState(false);
   const [hoveredCountry, setHoveredCountry] = useState<string | null>(null);
 
   const addLayers = useCallback(async () => {
     if (!map) return;
-    const response = await fetch("http://localhost:3000/scrape/");
-    const geojsonData: FeatureCollection<Geometry, GeoJsonProperties> =
-      await response.json();
     // Add source if it doesn't exist
     if (!map.getSource("countries")) {
       map.addSource("countries", {
         type: "geojson",
-        data: geojsonData,
+        data: geojsonData ?? "",
       });
     }
 
@@ -57,12 +59,19 @@ function CustomLayer() {
         },
       });
     }
-  }, [map, isLayerVisible]);
+  }, [map, isLayerVisible, geojsonData]);
+
+  useEffect(() => {
+    if (!map || !geojsonData) return;
+    const source = map.getSource("countries");
+    if (source) {
+      source.setData(geojsonData);
+    }
+  }, [map, geojsonData]);
 
   useEffect(() => {
     if (!map || !isLoaded) return;
 
-    // Add layers on mount
     addLayers();
 
     // Hover effect
@@ -81,7 +90,9 @@ function CustomLayer() {
       });
 
       if (features.length > 0) {
-        setHoveredCountry(features[0].properties?.value || null);
+        setHoveredCountry(
+          hoursToNatural(features[0].properties?.value) || null,
+        );
       }
     };
 
@@ -132,13 +143,25 @@ function CustomLayer() {
 }
 
 function App() {
+  const [geojsonData, setGeojsonData] = useState<FeatureCollection<
+    Geometry,
+    GeoJsonProperties
+  > | null>(null);
+
   const handleSubmit = async (url: string) => {
-    const response = await fetch("http://localhost:3000/scrape");
+    const response = await fetch("http://localhost:3000/scrape/", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        url,
+      }),
+    });
+
     if (!response.ok) {
       console.log({ response });
     }
     const productDetails = await response.json();
-    console.log({ productDetails });
+    setGeojsonData(productDetails);
   };
 
   return (
@@ -146,7 +169,7 @@ function App() {
       <Card className="h-full w-full p-0 overflow-hidden rounded-none bg-transparent">
         <Map center={[0, 0]} zoom={2} projection={{ type: "globe" }}>
           <MapControls />
-          <CustomLayer />
+          <CustomLayer geojsonData={geojsonData} />
         </Map>
       </Card>
 
@@ -164,7 +187,7 @@ function App() {
           <Input
             type="url"
             name="url"
-            placeholder="https://..."
+            placeholder="https://www.amazon..."
             required
             className="flex-1 border-none shadow-none focus-visible:ring-0 bg-transparent"
           />
