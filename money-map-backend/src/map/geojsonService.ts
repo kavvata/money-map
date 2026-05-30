@@ -1,5 +1,5 @@
 import { usdToTime } from "../currency/currencyService";
-import geoJsonData from "./file/countries.json";
+import geoJsonData from "../../data/countries.json";
 import type { FeatureCollection } from "geojson";
 
 export const getFullGeojson = async (): Promise<FeatureCollection> => {
@@ -21,12 +21,17 @@ export const getBrazil = async () => {
 
 export const buildGeoJsonMapDataFromUsd = async (price: number) => {
   const fullData = await getFullGeojson();
+
   fullData.features.forEach((f) => {
     if (f.properties) {
       const timeInHours = usdToTime(price, f.properties.name!);
-      console.log({ timeInHours, price });
       f.properties.value = timeInHours;
     }
   });
+
+  fullData.features = fullData.features.filter(
+    (f) => f.properties && f.properties.value > 0,
+  );
+
   return fullData;
 };

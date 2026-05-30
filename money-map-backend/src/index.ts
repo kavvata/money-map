@@ -2,11 +2,7 @@ import { Elysia } from "elysia";
 import { ProductDetails, requestHandler } from "./scrape/amazonScraper";
 import { CheerioCrawler } from "crawlee";
 import cors from "@elysia/cors";
-import {
-  buildGeoJsonMapDataFromUsd,
-  getBrazil,
-  getFullGeojson,
-} from "./map/geojsonService";
+import { buildGeoJsonMapDataFromUsd, getBrazil } from "./map/geojsonService";
 import { getUsdPrice } from "./currency/currencyService";
 
 const app = new Elysia()

@@ -15,9 +15,9 @@ interface CurrencyRates {
 
 interface MinimumWage {
   country: string;
-  minimumWage: number;
+  minimumWage: string;
   dateEstimate: string;
-  previousValue: number;
+  previousValue: string;
 }
 
 const CURRENCIES = {
@@ -52,7 +52,7 @@ export const getUsdPrice = async (
     );
   }
 
-  return value * originalRate.rate;
+  return value / originalRate.rate;
 };
 
 export const usdToTime = (price: number, countryName: string) => {
@@ -65,7 +65,14 @@ export const usdToTime = (price: number, countryName: string) => {
   }
 
   const hourlyWage =
-    countryWage.minimumWage / AVERAGE_HOURS_WORKED_IN_ONE_MONTH;
+    parseFloat(countryWage.minimumWage.replace(",", "")) /
+    AVERAGE_HOURS_WORKED_IN_ONE_MONTH;
+
+  if (Number.isNaN(hourlyWage)) {
+    throw new Error(
+      `something went wrong while reading the minimum wage dataset. on ${countryWage.country}->minimumWage = ${countryWage.minimumWage}; hourlyWage = ${hourlyWage}`,
+    );
+  }
 
   return price / hourlyWage;
 };
