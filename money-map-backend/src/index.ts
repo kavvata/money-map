@@ -31,7 +31,7 @@ const app = new Elysia()
       const crawlerData = await crawler.getData();
       if (crawlerData.items.length != 1) {
         throw new Error(
-          `crawler got wrong number of items:  ${crawlerData.items.length}. expected 1.\n${crawlerData.items}`,
+          `crawler got wrong number of items:  ${crawlerData.items.length}. expected 1.`,
         );
       }
 
