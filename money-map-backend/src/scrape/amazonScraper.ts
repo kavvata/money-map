@@ -22,8 +22,6 @@ const parseCurrency = (input: string): Price => {
   const [_, currency, rawValue] = match;
   const value = parseFloat(rawValue.replace(/\./g, "").replace(",", "."));
 
-  console.log({ rawValue, value });
-
   if (isNaN(value))
     throw new Error(`Could not parse numeric value from: "${rawValue}"`);
 
