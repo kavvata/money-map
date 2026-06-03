@@ -3,70 +3,108 @@ import { Card } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 import "./App.css";
-import { useCallback, useEffect, useState } from "react";
+import { useCallback, useEffect, useRef, useState } from "react";
 import { Layers, X } from "lucide-react";
 import type { FeatureCollection, Geometry } from "geojson";
 import type { GeoJsonProperties } from "./types/types.ts";
 import { hoursToNatural } from "./utils/time.ts";
 
+interface PolygonColor {
+  fillColor: string;
+  outlineColor: string;
+}
+
+const COLORS: PolygonColor[] = [
+  {
+    fillColor: "#22c55e",
+    outlineColor: "#16a34a",
+  },
+  {
+    fillColor: "#eab308",
+    outlineColor: "#ca8a04",
+  },
+  {
+    fillColor: "#f97316",
+    outlineColor: "#ea580c",
+  },
+  {
+    fillColor: "#ef4444",
+    outlineColor: "#dc2626",
+  },
+];
+
+const fillLayerIds = COLORS.map((_, i) => `countries-fill-${i}`);
+
 function CustomLayer({
   geojsonData,
 }: {
-  geojsonData: FeatureCollection<Geometry, GeoJsonProperties> | null;
+  geojsonData: FeatureCollection[] | null;
 }) {
   const { map, isLoaded } = useMap();
   const [isLayerVisible, setIsLayerVisible] = useState(false);
   const [hoveredCountry, setHoveredCountry] = useState<string | null>(null);
+  const [mousePos, setMousePos] = useState({ x: 0, y: 0 });
+  const isDraggingRef = useRef(false);
 
   const addLayers = useCallback(async () => {
-    if (!map) return;
-    // Add source if it doesn't exist
-    if (!map.getSource("countries")) {
-      map.addSource("countries", {
-        type: "geojson",
-        data: geojsonData ?? "",
-      });
-    }
+    if (!map || !geojsonData) return;
 
-    // Add fill layer if it doesn't exist
-    if (!map.getLayer("countries-fill")) {
-      map.addLayer({
-        id: "countries-fill",
-        type: "fill",
-        source: "countries",
-        paint: {
-          "fill-color": "#22c55e",
-          "fill-opacity": 0.4,
-        },
-        layout: {
-          visibility: isLayerVisible ? "visible" : "none",
-        },
-      });
-    }
+    geojsonData.forEach((data, i) => {
+      const color = COLORS[i];
+      if (!color) return;
 
-    // Add outline layer if it doesn't exist
-    if (!map.getLayer("countries-outline")) {
-      map.addLayer({
-        id: "countries-outline",
-        type: "line",
-        source: "countries",
-        paint: {
-          "line-color": "#16a34a",
-          "line-width": 2,
-        },
-        layout: {
-          visibility: isLayerVisible ? "visible" : "none",
-        },
-      });
-    }
+      const sourceId = `countries-${i}`;
+      const fillLayerId = fillLayerIds[i];
+      const outlineLayerId = `countries-outline-${i}`;
+
+      if (!map.getSource(sourceId)) {
+        map.addSource(sourceId, {
+          type: "geojson",
+          data,
+        });
+      }
+
+      if (!map.getLayer(fillLayerId)) {
+        map.addLayer({
+          id: fillLayerId,
+          type: "fill",
+          source: sourceId,
+          paint: {
+            "fill-color": color.fillColor,
+            "fill-opacity": 0.4,
+          },
+          layout: {
+            visibility: isLayerVisible ? "visible" : "none",
+          },
+        });
+      }
+
+      if (!map.getLayer(outlineLayerId)) {
+        map.addLayer({
+          id: outlineLayerId,
+          type: "line",
+          source: sourceId,
+          paint: {
+            "line-color": color.outlineColor,
+            "line-width": 2,
+          },
+          layout: {
+            visibility: isLayerVisible ? "visible" : "none",
+          },
+        });
+      }
+    });
   }, [map, isLayerVisible, geojsonData]);
 
   useEffect(() => {
     if (!map || !geojsonData) return;
-    const source = map.getSource("countries");
-    if (source) {
-      source.setData(geojsonData);
-    }
+
+    geojsonData.forEach((data, i) => {
+      const source = map.getSource(`countries-${i}`);
+      if (source && source.type === "geojson") {
+        source.setData(data);
+      }
+    });
   }, [map, geojsonData]);
 
   useEffect(() => {
@@ -74,7 +112,6 @@ function CustomLayer({
 
     addLayers();
 
-    // Hover effect
     const handleMouseEnter = () => {
       map.getCanvas().style.cursor = "pointer";
     };
@@ -85,25 +122,46 @@ function CustomLayer({
     };
 
     const handleMouseMove = (e: maplibregl.MapMouseEvent) => {
+      if (isDraggingRef.current) return;
+
       const features = map.queryRenderedFeatures(e.point, {
-        layers: ["countries-fill"],
+        layers: fillLayerIds,
       });
 
       if (features.length > 0) {
         setHoveredCountry(
           hoursToNatural(features[0].properties?.value) || null,
         );
+        setMousePos({ x: e.point.x, y: e.point.y });
       }
     };
 
-    map.on("mouseenter", "countries-fill", handleMouseEnter);
-    map.on("mouseleave", "countries-fill", handleMouseLeave);
-    map.on("mousemove", "countries-fill", handleMouseMove);
+    const handleDragStart = () => {
+      isDraggingRef.current = true;
+      setHoveredCountry(null);
+    };
+
+    const handleDragEnd = () => {
+      isDraggingRef.current = false;
+    };
+
+    fillLayerIds.forEach((layerId) => {
+      map.on("mouseenter", layerId, handleMouseEnter);
+      map.on("mouseleave", layerId, handleMouseLeave);
+      map.on("mousemove", layerId, handleMouseMove);
+    });
+
+    map.on("dragstart", handleDragStart);
+    map.on("dragend", handleDragEnd);
 
     return () => {
-      map.off("mouseenter", "countries-fill", handleMouseEnter);
-      map.off("mouseleave", "countries-fill", handleMouseLeave);
-      map.off("mousemove", "countries-fill", handleMouseMove);
+      fillLayerIds.forEach((layerId) => {
+        map.off("mouseenter", layerId, handleMouseEnter);
+        map.off("mouseleave", layerId, handleMouseLeave);
+        map.off("mousemove", layerId, handleMouseMove);
+      });
+      map.off("dragstart", handleDragStart);
+      map.off("dragend", handleDragEnd);
     };
   }, [map, isLoaded, isLayerVisible]);
 
@@ -111,8 +169,19 @@ function CustomLayer({
     if (!map) return;
 
     const visibility = isLayerVisible ? "none" : "visible";
-    map.setLayoutProperty("countries-fill", "visibility", visibility);
-    map.setLayoutProperty("countries-outline", "visibility", visibility);
+    COLORS.forEach((_, i) => {
+      if (
+        map.getLayer(`countries-fill-${i}`) &&
+        map.getLayer(`countries-outline-${i}`)
+      ) {
+        map.setLayoutProperty(`countries-fill-${i}`, "visibility", visibility);
+        map.setLayoutProperty(
+          `countries-outline-${i}`,
+          "visibility",
+          visibility,
+        );
+      }
+    });
     setIsLayerVisible(!isLayerVisible);
   };
 
@@ -134,7 +203,10 @@ function CustomLayer({
       </div>
 
       {hoveredCountry && (
-        <div className="bg-background/90 absolute bottom-3 left-3 z-10 rounded-md border px-3 py-2 text-sm font-medium backdrop-blur">
+        <div
+          className="bg-background/90 pointer-events-none absolute z-10 rounded-md border px-3 py-2 text-sm font-medium backdrop-blur"
+          style={{ left: mousePos.x + 12, top: mousePos.y - 12 }}
+        >
           {hoveredCountry}
         </div>
       )}
@@ -143,10 +215,9 @@ function CustomLayer({
 }
 
 function App() {
-  const [geojsonData, setGeojsonData] = useState<FeatureCollection<
-    Geometry,
-    GeoJsonProperties
-  > | null>(null);
+  const [geojsonData, setGeojsonData] = useState<FeatureCollection[] | null>(
+    null,
+  );
 
   const handleSubmit = async (url: string) => {
     const response = await fetch("http://localhost:3000/scrape/", {
