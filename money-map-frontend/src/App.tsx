@@ -5,8 +5,7 @@ import { Button } from "@/components/ui/button";
 import "./App.css";
 import { useCallback, useEffect, useRef, useState } from "react";
 import { Layers, X } from "lucide-react";
-import type { FeatureCollection, Geometry } from "geojson";
-import type { GeoJsonProperties } from "./types/types.ts";
+import type { FeatureCollection } from "geojson";
 import { hoursToNatural } from "./utils/time.ts";
 
 interface PolygonColor {
